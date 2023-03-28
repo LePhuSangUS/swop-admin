@@ -1,0 +1,10 @@
+defaultSeverity: error
+extends:
+  - tslint-eslint-rules
+rules:
+  jsx-no-multiline-js: false
+  eofline: true
+  no-console: true
+  no-construct: true
+  no-debugger: true
+  no-reference: true

@@ -1,0 +1,42 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  --primary: #15b67c;
+  --dark: #232530;
+  --battleship-grey: #f6f9fc;
+  --text-light: #cfd7df;
+  --text-display: #525f7f;
+}
+
+@font-face {
+  font-family: Averta;
+  src: url(./assets/fonts/Averta-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Averta;
+  src: url(./assets/fonts/Averta-Bold.otf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: Averta;
+  margin: 0;
+  text-size-adjust: 100%;
+  color: #4b4b60;
+}
+
+.img-gradient {
+  background-image: linear-gradient(#fdfdfd, #f2f2f2);
+}
+
+.antd-img-crop-container {
+  height: 60vh;
+}

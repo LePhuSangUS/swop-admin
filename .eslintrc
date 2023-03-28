@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-umi",
+  "rules": {
+    "jsx-no-multiline-js": false
+  }
+}
